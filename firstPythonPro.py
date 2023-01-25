@@ -67,4 +67,4 @@ while noOfPassengers <5:
     else:
         total = total+100
 print (total)            
-    
+
