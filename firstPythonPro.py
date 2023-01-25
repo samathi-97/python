@@ -37,4 +37,20 @@ while i <=5:
    i = i + 1
 
 print("Finished!")    
+
+#program to use while with if else
+turn = 0
+points = 100
+
+while turn<4:
+    print("enter hit or miss")
+    txt = input()
+    if txt == 'hit':
+        points = points+10
+        turn = turn+1
+    else:
+         points = points - 20
+         turn = turn +1
+
+print(points)     
     
