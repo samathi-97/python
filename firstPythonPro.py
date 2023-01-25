@@ -53,4 +53,18 @@ while turn<4:
          turn = turn +1
 
 print(points)     
+
+
+# code to calculate ticket price with continue
+total = 0
+noOfPassengers = 0
+
+while noOfPassengers <5:
+    ageofPassenger = int(input())
+    noOfPassengers +=1
+    if ageofPassenger < 3 :
+        continue 
+    else:
+        total = total+100
+print (total)            
     
