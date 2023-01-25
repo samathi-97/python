@@ -28,4 +28,13 @@ elif year % 400 == 0 :
     print("Leap year")
 elif year % 400 !=0:
     print("not a leap year")
+
+#while loop in python
+
+i = 1
+while i <=5:
+   print(i)
+   i = i + 1
+
+print("Finished!")    
     
