@@ -29,3 +29,24 @@ print(numbersM)
 
 numbersP = list(range(20,5,-2))
 print(numbersP)
+
+#List Slices
+squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+print(squares[2:6])
+print(squares[3:8])
+print(squares[0:1])
+
+#If the first number in a slice is omitted, it’s taken to be the start of the list.
+#If the second number is omitted, it’s taken to be the end.
+
+squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+print(squares[:7])
+print(squares[7:])
+
+#Third Number representing the step
+squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+print(squares[::2])
+print(squares[2:8:3])
+
+str = input("Input a String: ")
+print(str[::-1])
